@@ -1,0 +1,36 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "tooling only",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "CGM design system tooling",
+    "email": ""
+  },
+  "type": "module",
+  "scripts": {
+    "debug": "echo 'debug script'"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@types/common-tags": "^1.8.4",
+    "@types/current-git-branch": "^1.1.6",
+    "@types/dashify": "^1.0.3",
+    "@types/glob-watcher": "^5.0.5",
+    "@types/lerna__project": "^5.1.2",
+    "axios": "^1.7.9",
+    "chokidar": "^4.0.3",
+    "copy-dir": "^1.3.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "current-git-branch": "^1.1.0",
+    "dashify": "^2.0.0",
+    "enquirer": "^2.4.1",
+    "esbuild": "^0.24.2",
+    "fs-extra": "^11.2.0",
+    "git-last-commit": "^1.0.1",
+    "globby": "^14.0.2",
+    "hash-files": "^1.1.1",
+    "sass": "^1.83.4"
+  }
+}
